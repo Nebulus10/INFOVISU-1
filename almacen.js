@@ -61,16 +61,8 @@ var node = svg.selectAll("circle")  //The project asked for a "flie shape" but I
             d.contador_mosca = d.contador_mosca + 1;
             d.r = 25;
 
-        }
+        }    
         else if(d.contador_mosca === 3){
-
-            d.x = d.bx;
-            d.y = d.by;
-            d.contador_mosca = d.contador_mosca + 1;
-            d.r = 25;
-        }
-
-        else if(d.contador_mosca === 4){
 
             d3.select(this).style('fill', 'red').transition().attr("r", 0).duration(3000); //Animation of "death"
 
