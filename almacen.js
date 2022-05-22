@@ -1,8 +1,8 @@
-function random(min, max) {
+function random(min, max) {     //Random function to compute next position
     return min + Math.random() * (max - min);
   }
 
-var nodes = [
+var nodes = [ //This is the logical data structure I followed to maintain the data of every single shape on the svg element
     { x:random(100, 650), y:random(100, 650), r:25, x1: random(100, 650), y1: random(100, 650), x2: random(100, 650), y2: random(100, 650),bx: 100, by: 100, contador_mosca: 0, tag: "Mosca 1"},   
     { x:random(100, 650), y:random(100, 650), r:25, x1: random(100, 650), y1: random(100, 650), x2: random(100, 650), y2: random(100, 650), bx: 100, by: 250, contador_mosca: 0, tag: "Mosca 2"},
     { x:random(100, 650), y:random(100, 650), r:25, x1: random(100, 650), y1: random(100, 650), x2: random(100, 650), y2: random(100, 650), bx: 100, by: 400, contador_mosca: 0, tag: "Mosca 3"},
