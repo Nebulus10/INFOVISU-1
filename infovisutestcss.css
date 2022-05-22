@@ -1,0 +1,36 @@
+h1 {/* Esto afecta a todo h1 */
+    font-size: 2.5em; /*Tamaño fuente*/
+    font-weight: bold; /*Tipo de negrita*/
+    color:navy; /* Color de letra */
+    margin: 0.5em;   /*Tamaño margen*/
+    text-align: center;
+    clear:both;
+    }
+.Titulo{
+
+    margin: 0.5em; 
+    border-width: 1px;
+    border-style:solid;
+    margin: 0.5em;
+    border: rgb(0, 0, 0);
+    clear:both;
+
+
+}
+.creditos{
+    font-size: 1em; /*Tamaño fuente*/
+    font-weight: bold; /*Tipo de negrita*/
+    color:navy; /* Color de letra */
+    margin:0; 
+    text-align: center;
+}
+
+body{
+
+    background-color: aquamarine;
+    font-family: helvetica, arial, geneva, sans-serif; 
+	font-size: 1.0em;   /*Tamaño fuente*/
+	margin-left: 3em;   /*Tamaño margen izquierdo*/
+	margin-right: 3em;  /*Tamaño margen derecho*/
+
+}
